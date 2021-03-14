@@ -23,6 +23,7 @@ yarn-error.log
 /React/build
 /Angular/dist
 /Vue/dist
+/TestingTool/benchmarks
 
 # misc
 .DS_Store
@@ -33,7 +34,7 @@ yarn-error.log
 
 
 yarn-debug.log*
-
+debug.log
 
 #Angular
 
