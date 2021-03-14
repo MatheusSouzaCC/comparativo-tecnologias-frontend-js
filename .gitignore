@@ -21,6 +21,8 @@ yarn-error.log
 
 # production
 /React/build
+/Angular/dist
+/Vue/dist
 
 # misc
 .DS_Store
@@ -31,4 +33,50 @@ yarn-error.log
 
 
 yarn-debug.log*
+
+
+#Angular
+
+# compiled output
+
+Angular/tmp
+Angular/out-tsc
+# Only exists if Bazel was run
+Angular/bazel-out
+
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+Angular/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+Angular/.sass-cache
+Angular/connect.lock
+Angular/coverage
+Angular/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+Angular/typings
+
+# System Files
+.DS_Store
+Thumbs.db
 
